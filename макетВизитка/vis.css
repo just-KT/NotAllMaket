@@ -1,0 +1,199 @@
+body, head{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+   
+    max-height: 30%;
+    background-color:WhiteSmoke;
+   
+}
+#shapka{
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 10%;
+    column-gap: 10px;
+    align-items: center;
+}
+
+#disAndVerst{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: 50px;
+   padding-left: 20%;
+   padding-right: 15%;
+}
+#text_butt{
+    display: grid;
+    grid-template-rows: 20% 47% 30%;
+}
+#text_butt h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo{
+   max-width: 80px;
+   margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color: cadetblue;
+}
+.but{
+    color:white;
+    background-color: steelblue;
+    height: 40px;
+    border: none;
+    width: 160px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+#comp{
+    max-width: 230px;
+}
+/* вторая часть "Обо мне" */
+caption{
+    background-color: azure;
+}
+#aboutMe,#aboutWork,#WantSite{
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-rows: 30% 20%;
+    text-align: center;
+    
+}
+#aboutMe,#aboutWork,#WantSite p{
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+h3{
+    color: black;
+}
+#blueLine{
+    background-color: steelblue;
+display: grid;
+grid-template-columns: 10% 10% 10% 10% 10% 10%;
+column-gap: 30px;
+padding-left: 17%;
+height: 125px;
+align-items: center;
+}
+.linePict{
+    width: 85px;
+}
+#skillsAndMe{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 350px;
+}
+#skillsAndMe h3{
+    margin-left: 25%;
+}
+#skillsAndMe p{
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+#person{
+    max-width: 300px;
+}
+.skills{
+    margin-left: 25%;
+}
+.lines{
+    display: grid;
+    grid-template-columns: 0% 20%;
+    grid-template-rows: auto;
+}
+.bl{
+    max-width: 220px;
+}
+.whl{
+    max-width: 300px;
+}
+/* третья часть "Как я работаю" */
+#thirdBlock{
+    background-color:WhiteSmoke;
+    display: grid;
+    grid-template-rows: 35% 60%;
+    height: 610px;
+    align-items: center;
+}
+#centerIm{
+    text-align: center;
+}
+#codeIm{
+    max-width: 650px;
+    
+}
+/* четрвёртая часть с картинками*/
+#pictures{
+    display: grid;
+    grid-template-rows: 70% 25%;
+    row-gap: 20px;
+    background-color: azure;
+    margin-top: 30px;
+    width: 100%;
+    row-gap: 60px;
+}
+#setOfPict{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 45% 50%;
+   
+}
+.setIm{
+    max-width: 100%;
+}
+#Mcrsft{
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+column-gap: 30px;
+}
+/* пятая часть с "Хотите веб-сайт"*/
+#DoYouWantWebSite{
+    height: 500px;
+    background-color:WhiteSmoke;
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+}
+#textBloks{
+    display: grid;
+    grid-row: 10% 50%;
+    row-gap: 5%;
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+#name_email{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 5%;
+}
+input{
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+#centerBut{
+    width: 100%;
+    text-align: center;
+}
+
+/* подвал */
+#footer{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    padding-left: 30%;
+    padding-right: 30%;
+    column-gap: 20%;
+}
